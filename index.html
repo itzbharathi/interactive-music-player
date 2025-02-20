@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="music-container">
+        <h1>Interactive Music Player 🎵</h1>
+        <img id="album-cover" src="" alt="Album Art" class="album-cover">
+        <h2 id="song-title"></h2>
+        <p id="artist-name"></p>
+        <audio id="audio"></audio>
+        <input type="range" id="progress-bar" value="0">
+        <div class="controls">
+            <button id="prev">&#9665;</button>
+            <button id="play">&#9658;</button>
+            <button id="next">&#9655;</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
